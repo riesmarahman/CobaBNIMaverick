@@ -1,5 +1,5 @@
 
-### Automation API: ###
+### A. Automation API: ###
 Please read these steps carefully before you answer the questions. 
 1. Login into https://gorest.co.in/ , and get your credentials. 
 2. Once you logged in and got your credentials, go to https://gorest.co.in/rest- console and 
