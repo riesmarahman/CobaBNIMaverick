@@ -4,10 +4,12 @@
    <name>web-service-tests</name>
    <tag></tag>
    <UUID>7e5e0f8d-ce52-47a2-b3cb-6946ba18b3f6</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/riesmarahman/Documents/GitHub/CobaBNIMaverick/Coba/web-service-tests.prj</projectFileLocation>
+   <projectFileLocation>/Users/riesmarahman/Documents/GitHub/CobaBNIMaverick/web-service-tests.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

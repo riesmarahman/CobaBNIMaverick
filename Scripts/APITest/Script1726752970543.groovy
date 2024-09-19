@@ -17,22 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-
-String url = 'https://twitter.com/login'
-String username = 'validUser'
-String password = 'validPassword'
-
-WebUI.openBrowser('')
-WebUI.navigateToUrl(url)
-
-WebUI.setText(findTestObject('Object Repository/LoginPage/txt_Username'), username)
-
-WebUI.setText(findTestObject('Object Repository/LoginPage/txt_Password'), password)
-
-WebUI.click(findTestObject('Object Repository/LoginPage/btn_Login'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/lbl_Welcome'), 10)
-
-WebUI.closeBrowser()
