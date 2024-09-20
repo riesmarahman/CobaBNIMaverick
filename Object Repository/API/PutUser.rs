@@ -7,18 +7,35 @@
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <authorizationRequest>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>baa036b9c5ca425c379ec27d09c609ef7b7856d2c61085bfd6ffd380dac175ab</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer baa036b9c5ca425c379ec27d09c609ef7b7856d2c61085bfd6ffd380dac175ab</value>
+      <webElementGuid>0ed71f8a-58b8-496d-8a1c-2c40085f2972</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>9.5.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://gorest.co.in/public/v2/users/6940797</restUrl>
+   <restUrl>https://gorest.co.in/public/v2/users/6940799</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -27,6 +44,15 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <validationSteps>
+      <id>794a8e85-762f-41ea-a6f4-f271666e7445</id>
+      <name>New Validation</name>
+      <type>AUTO_DETECT</type>
+      <dataType>AUTO</dataType>
+      <target>RESPONSE</target>
+      <data></data>
+      <activate>true</activate>
+   </validationSteps>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
